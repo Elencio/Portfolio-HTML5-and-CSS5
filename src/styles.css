@@ -1,0 +1,568 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+  :root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+  
+  body {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    font-family:'Merriweather Sans', sans-serif;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1767px;
+  }
+
+  .container-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #aside .perfil {
+    position: absolute;
+    max-width: 348px;
+    width: 100%;
+    height: 292px;
+    left: 40px;
+    top: 40px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+  #aside .contacto {
+    position: absolute;
+    width: 348px;
+    height: 348px;
+    left: 20px;
+     top: 362px;
+     background: #302F3D;
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 20px;
+  }
+
+  #aside .tecnologias {
+    position: absolute;  
+    width: 348px;
+    height: 208px;
+    left: 20px;
+    top: 740px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+  #aside .tecnologias h3 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 20px;
+    top: 20px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  #aside .experiencias {
+    position: absolute;
+    width: 348px;
+    height: 349px;
+    left: 20px;
+    top: 978px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+ 
+  #aside .educacao {
+    position: absolute;
+    width: 348px;
+    height: 352px;
+    left: 20px;
+    top: 1357px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+  #aside .educacao h3 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 20px;
+    top: 20px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  #aside .experiencias h3 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 20px;
+    top: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  #aside .experiencias ul {
+    position: absolute;
+    width: 175px;
+    height: 243px;
+    left: 60px;
+    top: 65px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .experiencias ul li {
+    margin-top: 12px;
+  }
+
+  #aside .educacao ul {
+    position: absolute;
+    width: 175px;
+    height: 243px;
+    left: 60px;
+    top: 65px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .educacao ul li {
+    margin-top: 12px;
+  }
+ 
+  #footer {
+    position: absolute;
+    width: 300px;
+    height: 19px;
+    left: 617px;
+    top: 1728px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #main header {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 40px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);  
+    border-radius: 20px;
+  }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+   section header h3 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 30px;
+    top: 30px;;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+   }
+
+   section header p {
+    position: absolute;
+    width: 70px;
+    height: 18px;
+    left: 850px;
+    top: 35.5px;
+    align-items: center;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+   }
+
+  #projects {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #projects .project-1 {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 448px;
+    top: 157px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+  #projects .project-2 {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 939px;
+     top: 157px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
+  }
+
+   .project-1-1 {
+    position: relative;
+     top: 20px;
+     left: 35px;
+   }
+
+   .block-project-1 {
+    position: absolute;
+    top: 120px;
+     display: flex;
+   }
+   
+   .block-project-1 p {
+    position: relative;
+      left: 180px;
+   }
+
+   #block-2 {
+    position: absolute;
+    display: flex;
+    
+   }
+  
+   #block-2 img {
+    position: relative;
+     margin-right: 60px;
+     
+   }
+ 
+   #block-2 .span-price {
+    position : absolute;
+    justify-content: space-between;
+    margin-right: 100px;
+    left: 30px;
+    top: 3px;
+   } 
+
+   #block-2 .span-price-1 {
+    position : absolute;
+    justify-content: space-between;
+    margin-right: 100px;
+    left: 114px;
+    top: 3px;
+   } 
+    
+   .block-project-side-1 p {
+    position: absolute;
+    width: 421px;
+    height: 19px;
+    top: 50px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+   }
+
+   .block-project-side-1 span {
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    left: 35px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #837E9F;
+   }
+
+   .block-project-side-2 p {
+    position: absolute;
+    width: 421px;
+    height: 19px;
+    top: 50px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+   }
+
+   .block-project-side-2 span {
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    left: 35px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #837E9F;
+   }
+
+
+  .recentpost {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+     top: 373px;
+     background: #302F3D;
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 20px;
+  }
+
+  .recentpost h3 {
+    position: absolute;
+    width: 140px;
+    height: 26px;
+    left: 30px;
+    top: 30px;;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  } 
+
+  #posts {
+    position: absolute;
+    width: 952px;
+    height: 201px;
+    left: 448px;
+    top: 489px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+   
+   #post {
+    position: absolute;
+    width: 952px;
+    height: 201px;
+    left: 448px;
+    top: 720px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+   }
+   
+  .perfil {
+    margin: auto;
+  }
+
+  .perfil img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 115px;
+    top: 23px;
+    border: 1px solid #00FF00;
+    border-radius: 100%;
+  }
+
+  .perfil h3 {
+    position: absolute;
+    width: 196px;
+    height: 26px;
+    left: 90px;
+    top: 200px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+  }
+
+  .perfil p {
+    position: absolute;
+    width: 128px;
+    height: 17px;
+    left: 120px;
+    top: 240px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+
+   .contacts-sides div img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 50px;
+    margin-top: 20px;
+    color: #837E9F
+    !important;
+   }
+
+   img {
+    color: #00FF00;
+   }
+
+   .contacts-sides div {
+    margin-top: 25px;
+   }
+
+   .contacts-sides div .span {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 100px;
+    top: 20px;
+   } 
+
+   .tecnologias .tech-1 {
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .tech-1 > div {
+    width: 86px;
+    height: 24px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    align-items: center !important;
+    text-align: center;
+    background: #CB92B1;
+    border-radius: 30px;
+    color: #000000
+  }
+
+
+  .main-posts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image img {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 40px;
+    top: 38px;
+    border-radius: 100%;
+  }
+
+  .information {
+    position: absolute;
+    width: 612px;
+    height: 700px;
+    left: 200px;
+    top: 30px;
+  }
+  
+  .information #description {
+    margin-top: 30px
+  }
+  .information p {
+    margin-top: 10px;
+  }
+  #apps {
+    display: flex;
+    justify-content: center;
+    float: left;
+  }
+
+   .fewbalon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border: 2px solid #808080;
+    border-radius: 100%;
+    top: 4px;
+    left: 160px;
+   }
+   .fewbalon-1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border: 2px solid #808080;
+    border-radius: 100%;
+    top: 4px;
+    left: 160px;
+   }
+   .javascript {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left: 120px;
+   }
+    
+   .javascript-1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left: 120px;
+   }
+
+  #apps p {
+    margin-right: 10px;
+  }
+
+
+  @media(min-width: 700px)  and (max-width: 954px) {
+
+    #aside {
+      display: inline-block;
+    }
+    
+   .section #projects {
+    position: absolute;
+    width: 100%;
+     
+    } 
+     
+  }
